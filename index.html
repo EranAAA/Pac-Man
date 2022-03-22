@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PacMan</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+
+  <body onload="init()" onkeyup="movePacman(event)">
+    <h2>Score: <span>0</span></h2>
+    <div class="board-container"></div>
+    <div class="modal-end-game">
+      <span></span> <br />
+      <button onclick="gameRestart()">Play</button>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/pacman.js"></script>
+    <script src="js/ghost.js"></script>
+  </body>
+</html>
+
+<!-- DIDNT SOLV THE BUG THAT PACMAN DUPLICATE ITSELF -->
