@@ -1,2 +1,2 @@
 # PacMan
-https://eranaaa.github.io/PacMan-ex/
+https://eranaaa.github.io/PacMan/
